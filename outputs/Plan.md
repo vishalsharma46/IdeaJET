@@ -1,23 +1,26 @@
 ```markdown
-# Key Assumptions
-- There is sufficient demand for pharmacy services near the hospital.
-- Local regulations permit the operation of a retail pharmacy in the area.
-- Target customers include hospital staff, patients, and local residents.
-- Competitive landscape is manageable with some differentiation.
+# Creating a Horoscopic ChatBot in WhatsApp with Monthly Subscription
 
-# Unknowns to Validate
-- The specific licensing requirements for opening a pharmacy in Gujarat.
-- Estimated customer foot traffic and expected sales volume.
-- Potential suppliers for pharmaceuticals and healthcare products.
-- Local competition and their service offerings.
+## Key Assumptions
+- Users are interested in personalized horoscopes via chat.
+- WhatsApp is an effective platform for chatbot interactions.
+- Monthly subscription model will attract and retain users.
+- Users value timely and relevant astrological content.
 
-# Targeted Web Search Queries
-1. "pharmacy licensing requirements Gujarat"
-2. "demand analysis for pharmacies near hospitals Nadiad"
-3. "supplier options for pharmaceuticals in Gujarat"
-4. "foot traffic data near hospitals in Nadiad"
-5. "key competitors in pharmacy sector Nadiad"
-6. "cost analysis for opening a retail pharmacy"
-7. "regulatory requirements for retail pharmacies India"
-8. "best practices for pharmacy business near hospitals"
+## Unknowns to Validate
+- Target audience demographics and preferences for astrology.
+- Will users prefer a text-based or multimedia horoscope format?
+- What features would make the subscription worthwhile?
+- Compliance with WhatsApp’s policies for chatbot monetization.
+- Competitor offerings and pricing strategies in the astrology market.
+
+## Targeted Web Search Queries
+1. "WhatsApp chatbot development best practices"
+2. "Astrology subscription service market analysis"
+3. "User interest in astrology chatbot features"
+4. "WhatsApp chatbot monetization guidelines"
+5. "Successful astrology chatbots on social media"
+6. "Demographics of astrology app users"
+7. "Subscription pricing strategies for digital services"
+8. "Trends in horoscope content delivery"
 ```

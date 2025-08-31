@@ -1,38 +1,38 @@
-# PRD for Chemist Near Hospital in Nadiad, Gujarat
+# Product Requirements Document (PRD)
 
-## 1) Problem
-Patients discharged from nearby hospitals often struggle to find immediate access to essential medications and healthcare products. The lack of a conveniently located chemist can lead to delays in medication adherence, impacting recovery and overall health outcomes. Additionally, local residents require a reliable pharmacy for regular prescriptions and health supplies, which is not adequately served in the immediate vicinity of the hospital.
+## 1. Problem  
+Users interested in astrology seek personalized horoscopes but often find existing apps cumbersome or impersonal. The challenge is to engage users with tailored astrological insights delivered conveniently through a platform they already use, like WhatsApp.
 
-## 2) Target users
-- Hospital patients needing immediate medication post-discharge
-- Hospital staff seeking quick access to pharmacy services
-- Local residents requiring a reliable chemist service 
-- Caregivers and family members of patients
+## 2. Target Users  
+- Astrology enthusiasts aged 18-45, predominantly in urban areas.  
+- Users already using WhatsApp extensively for communication.  
+- Individuals interested in personalized content, who may find existing solutions like apps too complex or time-consuming.
 
-## 3) Exactly 3 MVP features
-- **Medication Pickup and Delivery Service**: Allow users to order medications online and choose between in-store pickup or delivery to their home or hospital room.
-- **Prescription Management System**: Enable users to upload prescriptions via an app, receive notification alerts for prescription refills, and manage their medication history.
-- **Health and Wellness Consultation**: Offer virtual or in-store consultations with a licensed pharmacist to advise on medication use, side effects, and other health inquiries.
+## 3. Exactly 3 MVP Features  
+- **Personalized Daily/Monthly Horoscopes**: Users receive tailored astrological insights via WhatsApp, adjusting to their birth charts and preferences.  
+- **Interactive Chatbot**: Users can converse with the chatbot for real-time questions and receive instant astrological guidance.  
+- **Subscription Management**: Users can easily manage their monthly subscriptions through WhatsApp, including upgrades, renewals, or cancellations.
 
-## 4) User stories
-1. **Given** I am a patient being discharged from the hospital, **when** I visit the pharmacy, **then** I should find the medications prescribed to me available for quick pick-up.
-2. **Given** I have a prescription on my phone, **when** I upload it using the pharmacy app, **then** the system should confirm that it has been received and will be ready for pickup.
-3. **Given** I am a caregiver, **when** I schedule a medication delivery through the app, **then** I should receive a notification confirming the delivery time.
-4. **Given** I have questions about my medication, **when** I initiate a consultation with a pharmacist via the app, **then** I should receive timely responses.
-5. **Given** I require a regular medication refill, **when** the pharmacy app reminds me, **then** I should be able to reorder with a single click.
-6. **Given** I want to know more about a medication, **when** I access the health resources on the app, **then** I should find comprehensive information available.
+## 4. User Stories  
+- **Given** a user subscribes to the service, **when** the month starts, **then** they should receive a personalized monthly horoscope.  
+- **Given** a user asks the chatbot, "What do the stars say about my career?", **when** they submit their question, **then** they should receive relevant insights in response.  
+- **Given** a user wants to cancel their subscription, **when** they type "Cancel subscription", **then** they should receive a confirmation message and details on the end date.  
+- **Given** a user is engaging with the chatbot, **when** they inquire about their compatibility with another sign, **then** they should receive a compatibility analysis based on both birth charts.  
+- **Given** a user has an upcoming celestial event (e.g., full moon), **when** a specific day arrives, **then** they should receive a notification explaining its implications.
 
-## 5) Acceptance criteria
-- Users can successfully place an order for medications via the app.
-- Users receive confirmation notifications for their orders (both pickup and delivery).
-- Prescription uploads are processed and confirmed by the system within 5 minutes.
-- The health consultation feature is accessible and responses from pharmacists are received within 24 hours.
-- Delivery options are clearly visible and functional within the app, with tracking information provided post-order.
-- The app should have a user-friendly interface informative to first-time users.
+## 5. Acceptance Criteria  
+- Users receive personalized daily/monthly horoscopes via WhatsApp within the first day of their subscription period.  
+- The chatbot responds to user queries in less than 5 seconds, with at least 90% accuracy in astrological insight.  
+- Subscription management must be able to handle commands for upgrade, downgrade, and cancellation through WhatsApp.  
+- Users report a satisfaction score of 75% or above regarding the chatbot interactions in surveys.  
+- All subscriptions and billing transactions are seamlessly processed without user error in 95% of cases.  
+- Users can access horoscopes and chatbot insights without error or bugs at least 98% of the time.
 
-## 6) Risks
-- **Regulatory Hurdles**: Compliance with local pharmacy laws and regulations needs careful navigation to avoid legal issues.
-- **Market Competition**: Existing pharmacies may quickly adapt and offer similar services, increasing competition.
-- **Technological Reliability**: Dependence on technology for prescription management and delivery increases risks related to app downtime or errors in orders.
-- **Consumer Trust**: Building trust with users, especially concerning medication safety and privacy, can take time.
-- **Supply Chain Issues**: Ensuring a consistent supply of medications may be challenging, impacting the ability to meet customer demands.
+## 6. Risks  
+- **Market Competition**: Established competitors may rapidly adapt their offerings or improve their technology, potentially overshadowing our solution.  
+- **User Engagement**: Low engagement rates could lead to high churn if users find the content lacks depth or personalization.  
+- **Technical Reliability**: Dependence on WhatsApp's API could pose availability risks or communication delays.  
+- **Customer Support Needs**: Inadequate support could negatively impact user satisfaction, especially if issues arise during their subscription.  
+- **Regulatory Compliance**: Ensuring compliance with data privacy regulations (like GDPR) concerning personal astrological data may require additional resources.  
+
+This document outlines the approach to developing a horoscopic chatbot in WhatsApp, leveraging the growing interest and market potential in astrology while focusing on user engagement and satisfaction.

@@ -1,5 +1,5 @@
 # agents/planner.py
-from crewai import Agent, Task
+from crewai import Agent, Task, LLM
 
 def build_agent() -> Agent:
     return Agent(
@@ -8,6 +8,7 @@ def build_agent() -> Agent:
               "and 5–8 focused web search queries for downstream agents."),
         backstory=("Seasoned PM who scopes lean MVPs and writes precise prompts. "
                    "Bias to clarity, brevity, and sequencing."),
+        llm=LLM(model="gpt-4o-mini"),
         allow_delegation=False,
         verbose=True,
     )

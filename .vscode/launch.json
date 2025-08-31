@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "Python: Preview Outputs (launch preview_outputs.py)",
+      "type": "python",
+      "request": "launch",
+      "program": "/Users/vishalsharma/Desktop/IdeaJET/scripts/preview_outputs.py",
+      "console": "integratedTerminal",
+      "cwd": "/Users/vishalsharma/Desktop/IdeaJET",
+      "args": [],
+      "envFile": "${workspaceFolder}/.env",
+      "justMyCode": true
+    }
+  ]
+}
