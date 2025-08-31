@@ -1,0 +1,34 @@
+# --- Web app ---
+fastapi
+uvicorn[standard]
+jinja2
+aiofiles                 # serve static/outputs
+python-multipart         # handle HTML form posts
+
+# --- Agentic core ---
+crewai
+crewai-tools
+openai                   # LLM provider (swap if you use another)
+
+# --- Web search & scraping ---
+requests
+beautifulsoup4
+
+# --- Config & validation ---
+python-dotenv
+pydantic
+
+# --- Optional: search client (if you prefer Tavily over raw HTTP) ---
+# tavily-python
+
+# --- Optional: charts for future break-even feature ---
+# matplotlib
+
+# --- Optional: metrics/rate limiting (if you open it publicly) ---
+# prometheus-client
+# slowapi
+
+# --- Dev & tests ---
+# pytest
+# pytest-asyncio
+# httpx
